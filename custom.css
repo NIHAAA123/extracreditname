@@ -1,0 +1,99 @@
+/* General reset to ensure uniform styling */
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+
+
+/* Body Styling */
+
+body {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height: 100vh; /* Full height of viewport */
+
+    background: #f0f0f0; /* Light gray background */
+
+    font-family: 'Roboto', sans-serif; /* Default font */
+
+    margin: 0;
+
+}
+
+
+
+/* Stylized Name Styling */
+
+.stylized-name {
+
+    font-family: 'Playfair Display', serif; /* Elegant font for name */
+
+    font-size: 6rem; /* Large font size */
+
+    font-weight: 700; /* Bold weight */
+
+    text-align: center; /* Center text horizontally */
+
+    color: #4A90E2; /* Blue color */
+
+    text-transform: uppercase; /* Make text uppercase */
+
+    letter-spacing: 5px; /* Increase space between letters */
+
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+
+    background: linear-gradient(to right, #f06, #ffba00); /* Gradient effect */
+
+    -webkit-background-clip: text; /* Clip gradient to text */
+
+    color: transparent; /* Make text color transparent to show gradient */
+
+    animation: pulse 3s infinite; /* Animation to pulse */
+
+}
+
+
+
+/* Animation for text pulse effect */
+
+@keyframes pulse {
+
+    0% {
+
+        transform: scale(1);
+
+        opacity: 1;
+
+    }
+
+    50% {
+
+        transform: scale(1.1);
+
+        opacity: 0.8;
+
+    }
+
+    100% {
+
+        transform: scale(1);
+
+        opacity: 1;
+
+    }
+
+}
+
+/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
